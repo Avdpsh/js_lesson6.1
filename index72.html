@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>72Пример</title>
+  <script>
+    function up() {
+        document.mypic.src = 'images/on.png';
+    }
+    function down() {
+        document.mypic.src = 'images/off.png';
+    }
+    function up2() {
+        document.mypic2.src = 'images/on.png';
+    }
+    function down2() {
+        document.mypic2.src = 'images/off.png';
+    }
+  </script>
+</head>
+
+<body>
+  <h2>Пример анимации</h2>
+
+  <a href="https://itiu.bsu.by" onMouseOver="up()" onMouseOut="down()">
+    <img src="images/off.png" width=100, height=100 name="mypic" border=0></a>
+  <a href="https://onliner.by/" onMouseOver="up2()" onMouseOut="down2()">
+    <img src="images/on.png" width=100, height=100 name="mypic2" border=0></a>
+
+</body>
+
+</html>
